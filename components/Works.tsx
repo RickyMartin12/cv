@@ -24,10 +24,10 @@ const Works = () => {
                     <h3>About</h3>
 
                     <p className="leading-5 text-xs text-slate-600">
-                    I'm a <b>web developer</b> with more 3 years of experience to create and development websites 
+                    I m a <b>web developer</b> with more 3 years of experience to create and development websites 
                     using the languages such as: <b>PHP, Java, C# .Net, CSS, HTML e Javascript</b>. 
                     I have some experiencias and knowledgements about Frameworks <b>Laravel, Bootstrap, React JS, Jquery</b>.
-                    I'm going to apply to achieve my technical knowledgements and improve my professional level.
+                    I m going to apply to achieve my technical knowledgements and improve my professional level.
                     </p>
                 </div>
 
