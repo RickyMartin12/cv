@@ -83,8 +83,10 @@ const Works = () => {
 
                         </div>
 
+                        <hr className="my-4"></hr>
 
-                        <h4 className="mt-5 mb-0.5 text-sm text-indigo-700">
+
+                        <h4 className="mt-0 mb-0.5 text-sm text-indigo-700">
                             <b>Camara Municipal de Olhao - </b>Java Web Developer - Cuba Studio
                         </h4>
                         <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide">
@@ -113,7 +115,9 @@ const Works = () => {
                             </ul>
                         </div>
 
-                        <h4 className="mt-5 mb-0.5 text-sm text-indigo-700">
+                        <hr className="my-4"></hr>
+
+                        <h4 className="mt-0 mb-0.5 text-sm text-indigo-700">
                             <b>Conceptek a Shiji Group - </b>Web Developer
                         </h4>
                         <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide">
@@ -154,7 +158,10 @@ const Works = () => {
                         </div>
 
 
-                        <h4 className="mt-5 mb-0.5 text-sm text-indigo-700">
+                        <hr className="my-4"></hr>
+
+
+                        <h4 className="mt-0 mb-0.5 text-sm text-indigo-700">
                             <b>OSEUBACKOFFICE LDA - </b>Web Programming - Intern
                         </h4>
                         <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide">
