@@ -9,6 +9,12 @@ import Javascript from '../images/javascript.png';
 import PHP from '../images/php.png';
 import Wordpress  from '../images/wordpress.png';
 import Amazon  from '../images/Amazon_Lightsail.png';
+import PostgreSQL  from '../images/postgresql.png';
+import CUBA from '../images/cuba.png';
+import Java from '../images/java.jpg';
+import MYSQL  from '../images/mysql.png';
+import Bootstrap  from '../images/bootstrap.png';
+import Movavi  from '../images/movavi.png';
 
 const Works = () => {
     return(
@@ -72,10 +78,130 @@ const Works = () => {
                                 </li>
                                 
                             </ul>
+
+
+
                         </div>
+
+
+                        <h4 className="mt-5 mb-0.5 text-sm text-indigo-700">
+                            <b>Camara Municipal de Olhao - </b>Java Web Developer - Cuba Studio
+                        </h4>
+                        <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide">
+                            JANEIRO 2021 - FEVEREIRO 2021, Olhao - Portugal
+                        </p>
+                        <ul className="list-disc text-xs text-slate-600">
+                            <li className="pl-0">
+                                Development in IT which ensures your exists system integration and was 
+                                used the techonology platform which has CUBA Studio and database such as PostgreSQL. 
+                            </li>
+                        </ul>
+                        <div className="mt-2 not-prose">
+                            <ul className="flex -mx-1">
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={PostgreSQL} title="PostgreSQL" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={CSS3} title="CSS3" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={CUBA} title="CUBA Studio" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={Java} title="Java" width="20px" height="20px" />
+                                </li>
+                            </ul>
+                        </div>
+
+                        <h4 className="mt-5 mb-0.5 text-sm text-indigo-700">
+                            <b>Conceptek a Shiji Group - </b>Web Developer
+                        </h4>
+                        <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide">
+                            MAIO 2019 - DEZEMBRO 2019, Almancil - Portugal
+                        </p>
+                        <ul className="list-disc text-xs text-slate-600">
+                            <li className="pl-0">
+                                Web application in moodle plataform E-Learning conceptek a Shiji Group.
+                            </li>
+                            <li className="pl-0">
+                                Videos in E-learning conecptek platform using in golf and spa apps.
+                            </li>
+                        </ul>
+                        <div className="mt-2 not-prose">
+                            <ul className="flex -mx-1">
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={HTML5} title="HTML5" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={CSS3} title="CSS3" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={PHP} title="PHP" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={MYSQL} title="MYSQL" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={Bootstrap} title="Bootstrap" width="20px" height="20px" />
+                                </li>
+
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={Movavi} title="Movavi Video Editor" width="60px" height="20px" />
+                                </li>
+
+                                
+                            </ul>
+                        </div>
+
+
+                        <h4 className="mt-5 mb-0.5 text-sm text-indigo-700">
+                            <b>OSEUBACKOFFICE LDA - </b>Web Programming - Intern
+                        </h4>
+                        <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide">
+                            OUTUBRO 2016 - AGOSTO 2017, Albufeira - Portugal
+                        </p>
+                        <ul className="list-disc text-xs text-slate-600">
+                            <li className="pl-0">
+                                Land Page Sites Construction using the programming languages such as: HTML, CSS, PHP, Javascript e MYSQL.
+                            </li>
+                            <li className="pl-0">
+                                Transfers Platforms Construction.
+                            </li>
+                            <li className="pl-0">
+                                Implementation of Clients Transfers Tecnical Assistent
+                            </li>
+                        </ul>
+                        <div className="mt-2 not-prose">
+                            <ul className="flex -mx-1">
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={HTML5} title="HTML5" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={CSS3} title="CSS3" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={PHP} title="PHP" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={MYSQL} title="MYSQL" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={Bootstrap} title="Bootstrap" width="20px" height="20px" />
+                                </li>
+
+                                
+                            </ul>
+                        </div>
+
+
+
                     </div>
+
+                    
+
                 </div>
 
+                
 
             </div>
 
