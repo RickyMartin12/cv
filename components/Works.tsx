@@ -8,6 +8,7 @@ import CSS3 from '../images/css3.png';
 import Javascript from '../images/javascript.png';
 import PHP from '../images/php.png';
 import Wordpress  from '../images/wordpress.png';
+import Amazon  from '../images/Amazon_Lightsail.png';
 
 const Works = () => {
     return(
@@ -66,6 +67,10 @@ const Works = () => {
                                 <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
                                     <Image src={Wordpress} title="Wordpress" width="20px" height="20px" />
                                 </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={Amazon} title="AWS Lightsail" width="50px" height="20px" />
+                                </li>
+                                
                             </ul>
                         </div>
                     </div>
