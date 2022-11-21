@@ -21,13 +21,13 @@ const Works = () => {
         <>
             <div className="py-8 pb-4 px-12 h-full flex flex-col">
                 <h1 className="text-4xl font-semibold font-header tracking-wide text-center">Ricardo&nbsp;
-                    <span className="text-accent">Peleira  TOPP</span>
+                    <span className="text-accent">Peleira</span>
                 </h1>
-                <div className="mt-0 mb-6">      
+                <div className="mt-0 mb-4">      
                     <h2 className="text-2xl tracking-wider text-center">Full-stack Developer</h2>
                 </div>
 
-                <div className="mb-6 prose-sm prose-slate">
+                <div className="mb-4 prose-sm prose-slate">
                     <h3>About</h3>
 
                     <p className="leading-5 text-xs text-slate-600">
