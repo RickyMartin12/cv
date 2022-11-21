@@ -43,7 +43,7 @@ const Works = () => {
                         <h4 className="mt-0 mb-0.5 text-sm text-indigo-700">
                             <b>Lazer Telecom - </b>Software Developer - PHP
                         </h4>
-                        <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide" style={{marginTop: 5}}>
+                        <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide" style={{marginTop: '5px !important'}}>
                             JUNHO 2022 - DEZEMBRO 2022, Almancil (Faro) - Portugal
                         </p>
 
@@ -82,7 +82,7 @@ const Works = () => {
                         <h4 className="mt-0 mb-0.5 text-sm text-indigo-700">
                             <b>Interhub - </b>Web Developer - Wordpress PHP
                         </h4>
-                        <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide" style={{marginTop: 5}}>
+                        <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide" style={{marginTop: '5px !important'}}>
                             MAIO 2021 - DEZEMBRO 2021, Faro - Portugal
                         </p>
                         <ul className="list-disc text-xs text-slate-600">
@@ -127,7 +127,7 @@ const Works = () => {
                         <h4 className="mt-0 mb-0.5 text-sm text-indigo-700">
                             <b>Camara Municipal de Olhao - </b>Java Web Developer - Cuba Studio
                         </h4>
-                        <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide" style={{marginTop: 5}}>
+                        <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide" style={{marginTop: '5px !important'}}>
                             JANEIRO 2021 - FEVEREIRO 2021, Olhao - Portugal
                         </p>
                         <ul className="list-disc text-xs text-slate-600">
@@ -158,7 +158,7 @@ const Works = () => {
                         <h4 className="mt-0 mb-0.5 text-sm text-indigo-700">
                             <b>Conceptek a Shiji Group - </b>Web Developer
                         </h4>
-                        <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide" style={{marginTop: 5}}>
+                        <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide" style={{marginTop: '5px !important'}}>
                             MAIO 2019 - DEZEMBRO 2019, Almancil - Portugal
                         </p>
                         <ul className="list-disc text-xs text-slate-600">
@@ -202,7 +202,7 @@ const Works = () => {
                         <h4 className="mt-0 mb-0.5 text-sm text-indigo-700">
                             <b>OSEUBACKOFFICE LDA - </b>Web Programming - Intern
                         </h4>
-                        <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide" style={{marginTop: 5}}>
+                        <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide" style={{marginTop: '5px !important'}}>
                             OUTUBRO 2016 - AGOSTO 2017, Albufeira - Portugal
                         </p>
                         <ul className="list-disc text-xs text-slate-600">
