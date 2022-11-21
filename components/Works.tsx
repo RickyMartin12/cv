@@ -42,6 +42,9 @@ const Works = () => {
                     <h3>Work Experience</h3>
                     <div className="h-full flex flex-col">
                         <h4 className="mt-0 mb-0.5 text-sm text-indigo-700">
+                            <b>Lazer Telecom - </b>Software Developer - PHP
+                        </h4>
+                        <h4 className="mt-0 mb-0.5 text-sm text-indigo-700">
                             <b>Interhub - </b>Web Developer - Wordpress PHP
                         </h4>
                         <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide">
