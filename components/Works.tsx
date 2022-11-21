@@ -44,6 +44,42 @@ const Works = () => {
                         <h4 className="mt-0 mb-0.5 text-sm text-indigo-700">
                             <b>Lazer Telecom - </b>Software Developer - PHP
                         </h4>
+                        <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide">
+                            JUNHO 2022 - DEZEMBRO 2022, Almancil (Faro) - Portugal
+                        </p>
+
+                        <ul className="list-disc text-xs text-slate-600">
+                            <li className="pl-0">
+                                Web developement mon project (PHP, CSS, HTML and Javascript)
+                                such as: mon.lazertelecom.com and improve some details in mon
+                                website leads such as Leads (Reconnections, Change Over and New
+                                Connections) and Images gallery.
+                            </li>
+                        </ul>
+                        <div className="mt-2 not-prose">
+                            <ul className="flex -mx-1">
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={HTML5} title="HTML5" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={CSS3} title="CSS3" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={PHP} title="PHP" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={Javascript} title="Javascript" width="20px" height="20px" />
+                                </li>
+                                
+                            </ul>
+
+
+
+                        </div>
+
+                        <hr className="my-4"></hr>
+
+
                         <h4 className="mt-0 mb-0.5 text-sm text-indigo-700">
                             <b>Interhub - </b>Web Developer - Wordpress PHP
                         </h4>
