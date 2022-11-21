@@ -23,7 +23,7 @@ const Works = () => {
                 <h1 className="text-4xl font-semibold font-header tracking-wide text-center">Ricardo&nbsp;
                     <span className="text-accent">Peleira</span>
                 </h1>
-                <div className="mt-0 mb-4">      
+                <div className="mt-0 mb-1">      
                     <h2 className="text-2xl tracking-wider text-center">Full-stack Developer</h2>
                 </div>
 
