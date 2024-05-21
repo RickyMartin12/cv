@@ -24,7 +24,8 @@ import Core  from '../images/core.png';
 import Csharp  from '../images/csharp.png';
 import MYSQL  from '../images/mysql.png';
 import PostgreSQL  from '../images/postgresql.png';
-
+import JBOSS  from '../images/jboss.png';
+import RedHat from '../images/redhat.jpg';
 
 const InfoContact = () => {
     return(
@@ -82,10 +83,10 @@ const InfoContact = () => {
 
                     <div className=" relative py-2 flex flex-col overflow-hidden prose-sm prose-slate">
 
-                        <div className='py-2 pb-2 px-8'>
+                        <div className='py-0 pb-2 px-8'>
                                 <h2 style={{margin: '0'}}>Skills</h2>
                                     <ul className='p-0 grid grid-cols-2 mt-2'>
-                                        <li className='p-0 mt-2 flex items-center'>
+                                        <li className='p-0 mt-0 flex items-center'>
                                             <div className='mr-2 not-prose'>
                                                 <ul className='flex -mx-1'>
                                                     <li  className='flex px-1 hover:scale-150 ease-in-out duration-150'>
@@ -265,15 +266,37 @@ const InfoContact = () => {
                                             PostgreSQL
                                         </li>
 
+                                        <li className='p-0 mt-2 flex items-center'>
+                                            <div className='mr-2 not-prose'>
+                                                <ul className='flex -mx-1'>
+                                                    <li  className='flex px-1 hover:scale-150 ease-in-out duration-150'>
+                                                        <Image src={JBOSS} title="Java Boss EAP" width="15px" height="15px" />
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            Java Boss EAP
+                                        </li>
+
+                                        <li className='p-0 mt-2 flex items-center'>
+                                            <div className='mr-2 not-prose'>
+                                                <ul className='flex -mx-1'>
+                                                    <li  className='flex px-1 hover:scale-150 ease-in-out duration-150'>
+                                                        <Image src={RedHat} title="Server Red Hat" width="15px" height="15px" />
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            Server Red Hat
+                                        </li>
+
 
                                     </ul>
                         </div>
                     </div>   
 
 
-                    <div className=" relative py-2 flex flex-col overflow-hidden prose-sm prose-slate">
+                    <div className=" relative py-0 flex flex-col overflow-hidden prose-sm prose-slate">
 
-                        <div className='py-2 pb-2 px-8'>
+                        <div className='py-0 pb-2 px-8'>
                             <h2 style={{margin: '0'}}>Languages</h2>
 
                             <ul className="pl-0">
@@ -285,12 +308,15 @@ const InfoContact = () => {
                         </div>
                     </div>   
 
-                    <div className=" relative py-2 flex flex-col overflow-hidden prose-sm prose-slate">
-                        <div className='py-2 pb-2 px-8'>
+                    <div className=" relative py-0 flex flex-col overflow-hidden prose-sm prose-slate">
+                        <div className='py-0 pb-2 px-8'>
                             <h2 style={{margin: '0'}}>Interests</h2>
                                 <ul className="p-0">
                                     <li className="m-0 p-0"><span className="mr-2">👨🏼&zwj;💻 </span>Programming</li>
-                                    <li className="m-0 p-0"><span className="mr-2">🎮 </span>Gaming</li></ul>
+                                    <li className="m-0 p-0"><span className="mr-2">&#9917;</span>Soccer</li>
+                                    <li className="m-0 p-0"><span className="mr-2">🏋️</span>GYM</li>
+                                </ul>
+                                    
                         </div>
                     </div>         
 

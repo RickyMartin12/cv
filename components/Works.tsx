@@ -15,11 +15,18 @@ import Java from '../images/java.jpg';
 import MYSQL  from '../images/mysql.png';
 import Bootstrap  from '../images/bootstrap.png';
 import Movavi  from '../images/movavi.png';
+import XHTML  from '../images/xhtml.png';
+import jQuery from '../images/jquery.png';
+import JBOSS  from '../images/jboss.png';
+import RedHat from '../images/redhat.jpg';
+import JAVA from '../images/java.png';
+import MAVEN from '../images/maven.png';
+import Oracle from '../images/oracle_sql.png';
 
 const Works = () => {
     return(
         <>
-            <div className="py-8 pb-4 px-12 h-full flex flex-col">
+            <div className="py-2 pb-4 px-12 h-full flex flex-col">
                 <h1 className="text-4xl font-semibold font-header tracking-wide text-center">Ricardo&nbsp;
                     <span className="text-accent">Peleira</span>
                 </h1>
@@ -40,6 +47,56 @@ const Works = () => {
                 <div className="h-full flex flex-col prose-sm">
                     <h3>Work Experience</h3>
                     <div className="h-full flex flex-col">
+
+                    <h4 className="mt-0 mb-0.5 text-sm text-indigo-700">
+                            <b>Caixa Geral Depósitos - </b>Software Developer - Java
+                        </h4>
+                        <p className="text-slate-500 block leading-4 text-xs uppercase tracking-wide" style={{marginBottom: '5px!important'}}>
+                            MAIO 2023 - JUNHO 2024, Lisboa - Portugal
+                        </p>
+
+                        <ul className="list-disc text-xs text-slate-600">
+                            <li className="pl-0">
+                              Updating Web Platforms in "Caixa Directa Online," such as Back-office, CDO, CEB (CD Enterprise) and 
+                              private individuals; Documents of affiliation; 
+                              Improvements of Web Development in Java through tasks of vulnerability to resolve bugs in web platforms, 
+                              which belongs to Caixa Geral de Depositos;
+                            </li>
+                        </ul>
+                        <div className="mt-2 not-prose">
+                            <ul className="flex -mx-1">
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={CSS3} title="CSS3" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={XHTML} title="XHTML" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={jQuery} title="jQuery" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={JBOSS} title="JBOSS EAP 6" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={RedHat} title="Server Red Hat" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={JAVA} title="Java" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={MAVEN} title="Maven" width="20px" height="20px" />
+                                </li>
+                                <li className="flex px-1 hover:scale-150 ease-in-out duration-150">
+                                    <Image src={Oracle} title="Oracle SQL Developer" width="20px" height="20px" />
+                                </li>
+                            </ul>
+
+
+
+                        </div>
+
+                        <hr className="my-4"></hr>
+
                         <h4 className="mt-0 mb-0.5 text-sm text-indigo-700">
                             <b>Lazer Telecom - </b>Software Developer - PHP
                         </h4>
@@ -196,8 +253,8 @@ const Works = () => {
                         </div>
 
 
+                        { /*
                         <hr className="my-4"></hr>
-
 
                         <h4 className="mt-0 mb-0.5 text-sm text-indigo-700">
                             <b>OSEUBACKOFFICE LDA - </b>Web Programming - Intern
@@ -237,6 +294,7 @@ const Works = () => {
                                 
                             </ul>
                         </div>
+                                */ }
 
 
 
