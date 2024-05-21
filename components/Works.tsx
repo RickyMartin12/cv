@@ -58,9 +58,9 @@ const Works = () => {
                         <ul className="list-disc text-xs text-slate-600">
                             <li className="pl-0">
                               Updating Web Platforms in "Caixa Directa Online," such as Back-office, CDO, CEB (CD Enterprise) and 
-                              private individuals; Documents of affiliation; 
+                              private individuals; Documents of affiliation
                               Improvements of Web Development in Java through tasks of vulnerability to resolve bugs in web platforms, 
-                              which belongs to Caixa Geral de Depositos;
+                              which belongs to Caixa Geral de Depositos
                             </li>
                         </ul>
                         <div className="mt-2 not-prose">
